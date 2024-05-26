@@ -1,0 +1,18 @@
+uuid: 47f696cd-fa0f-4cd0-adc7-30c585a9d2b0
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact_form_api
+    - serialization
+    - user
+id: config_export_resource
+plugin_id: config_export_resource
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie
