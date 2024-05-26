@@ -1,0 +1,9 @@
+name: "Contact Form API"
+type: module
+description: "Provides a custom API to submit contact forms and send emails."
+package: Custom
+core_version_requirement: ^10
+dependencies:
+  - drupal:rest
+  - drupal:contact
+  - drupal:user
